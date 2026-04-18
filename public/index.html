@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌸 Flower Shop</h1>
+
+<div id="auth">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="signup()">Sign Up</button>
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="shop" class="hidden">
+  <h2>Shop Flowers</h2>
+  <div id="products"></div>
+
+  <h3>🛒 Cart</h3>
+  <div id="cart"></div>
+  <button onclick="checkout()">Checkout</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
