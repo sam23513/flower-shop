@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffe6f0, #fff);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: pink;
+  padding: 20px;
+  margin: 0;
+}
+
+#auth, #shop {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: hotpink;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: deeppink;
+}
+
+.hidden {
+  display: none;
+}
+
+#products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#cart {
+  margin-top: 20px;
+}
